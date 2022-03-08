@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background: linear-gradient(0deg, rgba(19,41,61,1) 0%, rgba(237,245,249,1) 63%);
+  }
+
+  .reset-button {
+    font-size: 20px;
+    height: 40px;
+    line-height: 10px;
+    margin-top: 30px;
+  }
+
+  .win-loss-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: white;
+  }
+
+  .results {
+    width: 35vw;
+    height: 400px;
+  }
+  
+  .card {
+    background: radial-gradient(farthest-corner at 40px 40px,#f35 0%, #43e 100%);
+    border: 5px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+    margin: auto;
+    padding: 40px;
+  }
+  section {
+    flex: 0 auto;
+    padding: 8px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+header {
+    padding: 20px;
+    text-align: center;
+    background:blueviolet;
+    color: #fff;
+    border-bottom:30px #879274;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .large-font {
+    font-size: 2.5em;
+    text-align:center;
+  }
+  .timer-text {
+    padding: 20px;
+  }
+
+  .timer {
+    height: 150px;
+    padding: 10px;
+    background: whitesmoke;
+    color: blueviolet;
+    text-align: center;
+  }
+  .large-font {
+    font-size: 2.5em;
+    text-align:center;
+  }
+  button {
+    background: gold;
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 3em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 300px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+  }
+  h1{
+      font-size: 60px;
+  }
+  .word-guess {
+    width: 55vw;
+    height: 400px;
+  }
+  .larger-font {
+    font-size: 6.5em;
+    padding-top: 40px;
+    text-align:center;
+    color: white;
+  }
+  .word-blanks {
+    line-height: 360px;
+  }
+  @media screen and (max-width: 1183px) {
+    main {
+      flex-direction: column;
+    }
+  
+    .word-guess,
+    .results {
+      width: 90vw;
+    }
+  
+    section {
+      background-color: white;
+      margin: 20px auto;
+      width: 92vw;
+    }
+  }
+  
+  @media screen and (max-width: 504px) {
+    .large-font {
+      font-size: 2em;
+    }
+  
+    .reset-button {
+      font-size: 12px;
+      width: 20ox;
+      
+    }
+  
+    .timer {
+      height: 200px;
+    }
+   
+  }
+  
